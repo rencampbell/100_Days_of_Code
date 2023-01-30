@@ -6,7 +6,7 @@
 -Debugging\
 -The Python Input Function\
 -Python Variables\
--Variable Naming\
+-Variable Naming
 
 ## Activities executed:
 A band name generator was created, which combined the name of the city the user grew up in, as well as their pet's name.
