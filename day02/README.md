@@ -8,7 +8,7 @@
 -Number Manipulation and F Strings in Python
 
 ## Activities executed:
-A tip calculator was created, which outputs the tip each individual should pay based on:
+A tip calculator was created, which outputs the tip each individual should pay based on:\
 -the bill amount\
 -the tip percentage\
 -the number of people
