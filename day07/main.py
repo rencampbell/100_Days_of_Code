@@ -2,6 +2,7 @@ import random
 
 word_list=["ardvark","baboon","camel"]
 
+display=[]
 
 def select_word (list):
     word=random.choice(list)
@@ -17,7 +18,6 @@ def find_letter (word,letter):
     return match
 
 def initiate_display (word):
-    display=[]
     length=len(word)
     for position in range(length):
         display.append('_')
@@ -35,14 +35,24 @@ def update_display (guess,word):
 chosen_word=select_word(word_list)
 print(chosen_word)
 
-display=initiate_display(chosen_word)
-print(display)
+initial_display=initiate_display(chosen_word)
+print(initial_display)
 
-user_guess=input("Guess a letter: ").lower()
+end_of_game=False
 
-is_letter=find_letter(chosen_word,user_guess)
+while not end_of_game:
 
-new_display=update_display(user_guess,chosen_word)
-print(new_display)
+    user_guess=input("Guess a letter: ").lower()
+
+    is_letter=find_letter(chosen_word,user_guess)
+
+    new_display=update_display(user_guess,chosen_word)
+    print(new_display)
+
+    if "_" not in new_display:
+        end_of_game=True
+        print("You win!")
+
+
 
 
