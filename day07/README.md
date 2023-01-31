@@ -7,4 +7,4 @@
 -How to Add ASCII Art and Improve the UI
 
 ## Activities executed:
--A hangman game was created where a random word was generated and the user guessed letter-by-letter
+-A hangman game was created where a random word was generated from a list and the user guessed the word, letter-by-letter. The game ended if the user lost all of their lives or guessed all letters correctly.
