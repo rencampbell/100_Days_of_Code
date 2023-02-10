@@ -1,6 +1,6 @@
 from art import logo
 
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 # def encrypt (text_e, shift_e):
 #     cipher_text=""
@@ -22,23 +22,28 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 def cipher (text_c, shift_c, direction_c):    
     cipher_text=""
-    for letter in text_c:
-        position=alphabet.index(letter)
-        if direction_c=="e":
-            new_position=position+shift_c
-        else:
-            new_position=position-shift_c
-        new_letter=alphabet[new_position]
-        cipher_text+=new_letter
+    if shift_c>25:
+        shift_c=shift_c%26
+    for char in text_c:
+        if char in alphabet:
+            position=alphabet.index(char)
+            if direction_c=="e":
+                new_position=position+shift_c
+            else:
+                new_position=position-shift_c
+            new_letter=alphabet[new_position]
+            cipher_text+=new_letter
+        else: 
+            cipher_text += char
     return cipher_text
 
 print(logo)
 
 direction=input("Type E to encrypt and D to decrypt: ").lower()
-if len(direction)>1:
+if direction!='e' and direction!='d':
     print("Please enter a valid input. ")
 else:
-    text=input("Please enter word: ")
+    text=input("Please enter word: ").lower()
     shift=int(input ("Please enter shift amount: "))
 
 
