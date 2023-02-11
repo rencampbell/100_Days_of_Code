@@ -1,4 +1,4 @@
-# **Day 13 - 14 - Higher Lower Game Project**
+# **Day 14 - Higher Lower Game Project**
 
 ## Concepts covered:
 -Using Dictionary Data\
