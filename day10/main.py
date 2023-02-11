@@ -20,17 +20,18 @@ operations={
     "/":div,
 }
 
-print(logo)
 
 def calculator():
-    num1=int(input("First number: "))
+    print(logo)
+
+    num1=float(input("First number: "))
     for op in operations:
         print(op)
     exit=False
 
     while not exit:
         symbol=input("Select an operation: ")
-        num2=int(input("Next number: "))
+        num2=float(input("Next number: "))
         answer=operations[symbol](num1,num2)
 
         print(f"{num1} {symbol} {num2} = {answer}")
