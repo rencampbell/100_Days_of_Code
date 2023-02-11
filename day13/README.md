@@ -1,4 +1,4 @@
-# **Day 12 - Scope & Number Guessing Game**
+# **Day 13 - Debugging: How to Find and Fix Errors in your Code**
 
 ## Concepts covered:
 -Describing the Problem\
