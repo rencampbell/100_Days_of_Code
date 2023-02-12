@@ -11,7 +11,7 @@ As practice:\
 -A program was created using Python's'turtle' module, which moved the turtle forward 100 paces\
 -A pokemon information table was created using the 'prettytable' module\
 
-A virtual coffee machine was created according to the following specifications:\
+A virtual coffee machine was created, utilizing thaccording to the following specifications:\
 -Promts the user to select a beverage from predetermined list\
 -Turns off coffee machine if 'off' is entered to prompt\
 -Prints report of wate, milk coffee and money left in machine\
