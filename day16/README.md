@@ -7,7 +7,9 @@
 -Modifying Object Attributes and Calling Methods
 
 ## Activities executed:
-A program was created using Python's'turtle' module, which moved the turtle forward 100 paces\
+As practice:\
+-A program was created using Python's'turtle' module, which moved the turtle forward 100 paces\
+-A pokemon information table was created using the 'prettytable' module\
 
 A virtual coffee machine was created according to the following specifications:\
 -Promts the user to select a beverage from predetermined list\
