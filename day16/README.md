@@ -9,7 +9,7 @@
 ## Activities executed:
 As practice:\
 -A program was created using Python's'turtle' module, which moved the turtle forward 100 paces\
--A pokemon information table was created using the 'prettytable' module\
+-A pokemon information table was created using the 'prettytable' module
 
 A virtual coffee machine was created, utilizing objects from the 'coffee_maker', 'money_machine' and 'menu' modules. This was done according to the following specifications:\
 -Promts the user to select a beverage from predetermined list\
