@@ -4,7 +4,7 @@
 -Refactoring and calling procedures
 
 ## Activities executed:
-A blackjack application was created according to the following rules:
+A blackjack application was created according to the following rules:\
 -The deck was unlimited in size\
 -No jokers were utilized\
 -Jack, king & queen all counted as 10\
