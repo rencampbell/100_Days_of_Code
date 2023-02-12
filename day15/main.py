@@ -22,7 +22,8 @@ def report(ingredients):
         print(f"{item}: {ingredients[item]}ml")
 
 def check_resources(beverage):
-    print(MENU[beverage])
+    i=MENU[beverage]["ingredients"]["water"]
+    print (i)
 
 # def process_coins(coins):
 #     return money
