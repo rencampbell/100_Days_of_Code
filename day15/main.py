@@ -1,5 +1,5 @@
 from art import logo, mug_logo
-from machine_menu import menu
+from machine_menu import MENU
 
 resources = {
     "water": 300,
