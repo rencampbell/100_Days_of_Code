@@ -6,4 +6,4 @@
 -Adding Methods to a Class
 
 ## Activities executed:
-A quiz game was created according to the following specifications:\
+-A quiz game was created which allowed the user to answer true/false questions from a question bank
